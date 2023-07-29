@@ -24,6 +24,7 @@ public:
   }
 
   void Union(int u, int v) {
+   // p_v = parent of v .
     int p_u = find_parent(u);
     int p_v = find_parent(v);
     if (p_u == p_v) return;
