@@ -6,7 +6,6 @@ vector <int> ar[n];
 bool vis[n];
 void dfs(int v){
        vis[v] = true;
-     //  if(vis[v]) continue;
      cout<< v <<  " -> ";
      for(int child : ar[v]){
       if(vis[child]) continue;
